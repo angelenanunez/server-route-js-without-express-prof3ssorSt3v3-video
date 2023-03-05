@@ -49,7 +49,7 @@ server.listen(1234, function() {
 //Each route has a function that takes two parameters
 //data: the info about the request
 //callback: the function to call to send the response
-let routes = {
+const routes = {
   kenny: function(data, res) {
     // this function called if the path is 'kenny'
     let payload = {
